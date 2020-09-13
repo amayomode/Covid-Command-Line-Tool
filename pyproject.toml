@@ -1,8 +1,22 @@
 [tool.poetry]
 name = "covtool"
 version = "0.1.0"
-description = ""
+description = "covtool- A CLI For Getting Info About COVID19"
 authors = ["Amayo II <amayomordecai@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/amayomode/Covid-Command-Line-Tool"
+repository = "https://github.com/amayomode/Covid-Command-Line-Tool"
+keywords = ["covidcli","covid","coronavirus", "covid19","covid-cli",]
+
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Operating System :: OS Independent",
+    ]
 
 [tool.poetry.dependencies]
 python = ">=3.6.1"
@@ -20,6 +34,9 @@ matplotlib = "^3.3.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+covtool = "covtool.cli:main"
 
 [build-system]
 requires = ["poetry>=0.12"]

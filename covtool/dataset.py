@@ -1,4 +1,4 @@
-from fetch_data import fetch_data, get_time_diff
+from covtool import fetch_data
 from pathlib import Path
 import pandas as pd
 import os
@@ -17,7 +17,7 @@ class DataSet:
         self.dataset = pd.read_feather(
             os.path.join(path, "data/covid_data.ft"))
 
-        get_time_diff()
+        fetch_data.get_time_diff()
 
     def get_global_data(self):
         """Returns Global Statisctics"""
@@ -50,7 +50,7 @@ class DataSet:
             return e.message, e.args
 
     def update_data(self):
-        fetch_data()
+        fetch_data.fetch_data()
 
 
 if __name__ == "__main__":
