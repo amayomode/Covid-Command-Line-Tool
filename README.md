@@ -152,10 +152,10 @@ Updates locally cached dataset
 
 #### 4. INSTALLATION
 
-To try it out, if you want to, then:
+To try it out run:
 
 ```bash
-pip install  git+https://github.com/amayomode/Covid-Command-Line-Tool.git#egg=covtool
+pip install https://github.com/amayomode/Covid-Command-Line-Tool/blob/master/dist/covtool-0.1.0-py3-none-any.whl
 ```
 
 Then you can run any command as follows
