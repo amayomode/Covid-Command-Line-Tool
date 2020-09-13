@@ -6,7 +6,7 @@ So may of these covid tools exist online and I made this one for the sake of lea
 
 ### 2. WHAT
 
-This tool fetches data about the COVID 19
+This tool fetches data about the COVID-19
 
 ### 3. USAGE
 
@@ -21,7 +21,7 @@ This tool fetches data about the COVID 19
 #### Commands
 
 ```bash
-Usage: covtool.py [OPTIONS] COMMAND [ARGS]...
+Usage: covtool [OPTIONS] COMMAND [ARGS]...
 
 Options:
   --version  Show the version and exit.
@@ -36,8 +36,6 @@ Commands:
 
 ```
 
-> Blockquote
-
 #### 1. get
 
 Shows the different cartegories of covid related data
@@ -45,7 +43,7 @@ Shows the different cartegories of covid related data
 **_Example_**
 
 ```bash
- python covtool.py get --world
+ covtool get --world
 ```
 
 ```bash
@@ -62,7 +60,7 @@ Deaths/1M pop: 118.8
 ```
 
 ```bash
- python covtool.py get --country Russia
+ covtool get --country Russia
 ```
 
 ```bash
@@ -79,7 +77,7 @@ Deaths/1M pop: 127
 
 ```
 
-> Options:
+> **Options**:
 > -w, --world Get World-Wide Covid Numbers
 > -j, --json Print the Data in Json Format
 > -c, --country TEXT Get a Country's Covid Numbers
@@ -87,11 +85,11 @@ Deaths/1M pop: 127
 #### 2. plot-global
 
 ```bash
-Usage: covtool.py plot-global [OPTIONS]
+Usage: covtool plot-global [OPTIONS]
                               [[recovered|confirmed|deaths]]
 
   Plot Global Time Series Plot by catergory i.e recovered|confirmed|deaths
-  e.g covtool.py plot-global confirmed
+  e.g covtool plot-global confirmed
 
 Options:
   --help  Show this message and exit.
@@ -100,7 +98,7 @@ Options:
 **_Example_**
 
 ```bash
- python covtool.py plot-global recovered
+ covtool plot-global recovered
 ```
 
 ![Global recovered cases](https://github.com/amayomode/Covid-Command-Line-Tool/blob/master/screenshots/screenshot4.PNG)
@@ -108,7 +106,7 @@ Options:
 #### 3. plot-country
 
 ```bash
-Usage: covtool.py plot-country [OPTIONS]
+Usage: covtool plot-country [OPTIONS]
                                [[recovered|confirmed|deaths]]
 
   Plot Country's Time Series Plot by catergory i.e
@@ -123,7 +121,7 @@ Options:
 **_Example_**
 
 ```bash
-  python covtool.py plot-country --name Kenya confirmed
+  covtool plot-country --name Kenya confirmed
 ```
 
 ![Country Specific Cases](https://github.com/amayomode/Covid-Command-Line-Tool/blob/master/screenshots/screenshot5.PNG)
@@ -139,7 +137,7 @@ Updates locally cached dataset
 #### 5. Info
 
 ```bash
-Usage: covtool.py info [OPTIONS]
+Usage: covtool info [OPTIONS]
 
   Information About The Tool
 
@@ -157,12 +155,11 @@ Updates locally cached dataset
 To try it out, if you want to, then:
 
 ```bash
-pipenv install setuptools
-pipenv install  -e git+https://github.com/amayomode/Covid-Command-Line-Tool.git#egg=covtool
+pip install  git+https://github.com/amayomode/Covid-Command-Line-Tool.git#egg=covtool
 ```
 
 Then you can run any command as follows
 
 ```bash
-pipenv run <insert command here>
+ covtool <insert command here>
 ```
