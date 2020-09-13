@@ -59,6 +59,8 @@ TotalCases/1M pop: 3,724
 Deaths/1M pop: 118.8
 ```
 
+**_Example_**
+
 ```bash
  covtool get --country Russia
 ```
