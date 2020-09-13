@@ -15,5 +15,3 @@ covtool/.pytest_cache/CACHEDIR.TAG
 covtool/.pytest_cache/README.md
 covtool/.pytest_cache/v/cache/nodeids
 covtool/.pytest_cache/v/cache/stepwise
-covtool/data/covid_data.ft
-covtool/data/time.txt
