@@ -78,8 +78,11 @@ Deaths/1M pop: 127
 ```
 
 > **Options**:
+
 > -w, --world Get World-Wide Covid Numbers
+
 > -j, --json Print the Data in Json Format
+
 > -c, --country TEXT Get a Country's Covid Numbers
 
 #### 2. plot-global
