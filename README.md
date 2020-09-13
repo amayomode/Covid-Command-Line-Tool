@@ -2,7 +2,7 @@
 
 ### 1. WHY
 
-So may of these covid tools exist online and I made this one for the sake of learning an also because browsing the web for data is a pain. (Why waste 10 minutes browsing for data when you can spend 15 hours automating the process 😅)
+So may of these covid tools exist online and I made this one for the sake of learning and also because browsing the web for data is a pain. (Why waste 10 minutes browsing for data when you can spend 15 hours automating the process 😅)
 
 ### 2. WHAT
 
