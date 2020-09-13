@@ -160,7 +160,7 @@ Updates locally cached dataset
 To try it out run:
 
 ```bash
-pip install https://github.com/amayomode/Covid-Command-Line-Tool/blob/master/dist/covtool-0.1.0.tar.gz
+pip install https://github.com/amayomode/Covid-Command-Line-Tool/raw/master/dist/covtool-0.1.0-py3-none-any.whl
 ```
 
 Then you can run any command as follows
