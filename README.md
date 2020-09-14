@@ -2,11 +2,16 @@
 
 ### 1. WHY
 
-So may of these covid tools exist online and I made this one for the sake of learning and also because browsing the web for data is a pain. (Why waste 10 minutes browsing for data when you can spend 15 hours automating the process 😅)
+So may of these covid related projects exist online(talk about profiteering form a pandemic 😅) but I made this one for the sake of trying out ![poetry](https://python-poetry.org/) and also because browsing the web for data is a pain a real pain. (Why waste 10 minutes browsing for data when you can spend 15 hours automating the process 😅)
 
 ### 2. WHAT
 
-This tool fetches data about the COVID-19
+This tool fetches data about the COVID-19 from the following sources:
+
+>![Worldometers:](https://www.worldometers.info/coronavirus)
+
+>![John Hopkins:](https://github.com/CSSEGISandData/COVID-19)
+
 
 ### 3. USAGE
 
