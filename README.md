@@ -2,7 +2,7 @@
 
 ### 1. WHY
 
-So may of these covid related projects exist online(talk about profiteering form a pandemic 😅) but I made this one for the sake of trying out [poetry](https://python-poetry.org/) and also because browsing the web for data is a pain a real pain. (Why waste 10 minutes browsing for data when you can spend 15 hours automating the process 😅)
+So may of these covid related projects exist online(talk about profiteering form a pandemic) but I made this one for the sake of trying out [poetry](https://python-poetry.org/) and also because browsing the web for data is a pain a real pain. (Why waste 10 minutes browsing for data when you can spend 15 hours automating the process 😅)
 
 ### 2. WHAT
 
